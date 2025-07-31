@@ -183,7 +183,7 @@ def generate_pix():
         # Dados do usuário para a transação PIX
         user_name = customer_data['nome']
         user_cpf = customer_data['cpf'].replace('.', '').replace('-', '')  # Remove formatação
-        amount = 45.84  # Valor fixo de R$ 45,84
+        amount = 126.00  # Valor fixo de R$ 126,00
 
         app.logger.info(f"[PROD] Dados do usuário: Nome={user_name}, CPF={user_cpf}, Email={default_email}")
 
